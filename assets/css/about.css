@@ -1,0 +1,28 @@
+.banner-behind {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent 0 5px,
+    white 5px 6px
+  );
+  border: 1px solid white;
+  padding-top: 4px;
+  padding-left: 4px;
+  height: 6vh;
+  width: 12vw;
+}
+.banner-front {
+  background-color: #5ac1f8;
+  color: #00223e;
+  height: 6vh;
+  width: 12vw;
+  text-align: center;
+  padding-top: 2px;
+}
+.banner-front h1 {
+  font-size: 1.9rem;
+}
+.aboutus-content {
+  margin-top: 20px;
+  color: white;
+  font-size: 0.9rem;
+}

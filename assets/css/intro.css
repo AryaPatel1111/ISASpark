@@ -1,0 +1,64 @@
+#devfolio-apply-now {
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #55bef6;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 20px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+#devfolio-apply-now:not([disabled]) {
+  cursor: pointer;
+}
+
+#devfolio-apply-now:hover {
+  background-color: #2954bf !important;
+}
+
+.intro {
+  color: #55bef6;
+}
+
+.message {
+  color: #55bef6;
+}
+
+.ihack-front h1 {
+  font-size: 7rem;
+  font-weight: 700;
+  color: #55bef6;
+  z-index: 10;
+  position: relative;
+  top: 17px;
+  right: 5px;
+}
+
+.ihack-behind span {
+  font-size: 7rem;
+  font-weight: 700;
+  color: #01213c;
+  text-shadow: -2px 2px 0 #ffffff, 2px 2px 0 #ffffff, 2px -2px 0 #ffffff,
+    -2px -2px 0 #ffffff;
+  position: absolute;
+  z-index: -1;
+}
+
+.year {
+  font-size: 7rem;
+  font-weight: 700;
+  color: #01213c;
+  text-shadow: -1px 1px 0 #ffffff, 1px 1px 0 #ffffff, 1px -1px 0 #ffffff,
+    -1px -1px 0 #ffffff;
+}
