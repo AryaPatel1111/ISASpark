@@ -1,3 +1,8 @@
+body {
+  background-color: #01213c;
+  color: white;
+}
+
 .banner-behind {
   background-image: repeating-linear-gradient(
     -45deg,
@@ -8,13 +13,13 @@
   padding-top: 4px;
   padding-left: 4px;
   height: 6vh;
-  width: 12vw;
+  width: clamp(150px, 12vw, 300px);
 }
 .banner-front {
   background-color: #5ac1f8;
   color: #00223e;
   height: 6vh;
-  width: 12vw;
+  width: clamp(150px, 12vw, 300px);
   text-align: center;
   padding-top: 2px;
 }
@@ -25,4 +30,28 @@
   margin-top: 20px;
   color: white;
   font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  body {
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 600px) and (max-width: 768px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1300px) {
+}
+
+@media (min-width: 1300px) and (max-width: 1367px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1367px) {
 }

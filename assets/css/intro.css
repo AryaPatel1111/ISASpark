@@ -27,6 +27,10 @@
   background-color: #2954bf !important;
 }
 
+.intro-wrapper .col {
+  float: left;
+}
+
 .intro {
   color: #55bef6;
 }
@@ -55,10 +59,57 @@
   z-index: -1;
 }
 
-.year {
+.year h1 {
   font-size: 7rem;
   font-weight: 700;
   color: #01213c;
   text-shadow: -1px 1px 0 #ffffff, 1px 1px 0 #ffffff, 1px -1px 0 #ffffff,
     -1px -1px 0 #ffffff;
+}
+.ihack {
+  margin-bottom: 0px;
+}
+.year {
+  margin-top: -30px;
+}
+
+.dates p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.dates span {
+  color: #55bef6;
+}
+
+@media (min-width: 350px) and (max-width: 400px) {
+  .intro {
+    font-size: 8vw;
+  }
+
+  .intro-content .h3 {
+    font-size: 7vw;
+  }
+}
+@media (min-width: 400px) and (max-width: 450px) {
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 600px) and (max-width: 768px) {
+  .intro-wrapper .col {
+    text-align: center;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1300px) {
+}
+
+@media (min-width: 1300px) and (max-width: 1367px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1367px) {
 }
