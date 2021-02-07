@@ -32,6 +32,15 @@ body {
   font-size: 0.9rem;
 }
 
+@media (min-width: 350px) and (max-width: 400px) {
+  .aboutus-content {
+    text-align: center;
+  }
+  .banner-behind {
+    margin-left: 25%;
+  }
+}
+
 @media (max-width: 600px) {
   body {
   }
