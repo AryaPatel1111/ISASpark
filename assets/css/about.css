@@ -32,17 +32,23 @@ body {
   font-size: 0.9rem;
 }
 
-@media (min-width: 350px) and (max-width: 400px) {
-  .aboutus-content {
-    text-align: center;
-  }
-  .banner-behind {
-    margin-left: 25%;
-  }
-}
-
 @media (max-width: 600px) {
-  body {
+  .aboutus-wrapper {
+    margin-top: 100px;
+  }
+  .wrapper{
+    width:100wv;
+    padding-left: 7vw;
+    padding-right:7vw;
+  }
+  .aboutus-content
+  {
+    margin-top: 30px;
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+  .banner-behind{
+    margin-left: 21vw;
   }
 }
 
